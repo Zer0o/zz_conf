@@ -16,6 +16,13 @@ sudo yum install ctags
 cd `dirname $0`
 path=`pwd`
 
+vimruntime=`vim --cmd 'echo $VIMRUNTIME|q'`
+dst_zz=${vimruntime}/colors/zz.vim
+dst_cvim=${vimruntime}/syntax/c.vim
+cvim=${path}/c.vim
 vimrc=${path}/.vimrc
+zzvim=${path}/zz.vim
 
+\cp ${zzvim} ${dst_zz}
+\cp ${cvim} ${dst_cvim}
 \cp ${vimrc} ~/.vimrc
