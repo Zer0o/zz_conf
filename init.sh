@@ -1,10 +1,12 @@
 #!/bin/sh
 
-# install git begin
+# git init begin
 
 sudo yum install git -y
 
-# install git end
+# todo: set git conf
+
+# git init end
 
 # vim init begin
 
