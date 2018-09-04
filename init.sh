@@ -13,3 +13,5 @@ sudo yum install git -y
 vim/vim_init.sh
 
 # vim init end
+
+# install zsh
