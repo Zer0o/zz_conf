@@ -10,7 +10,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 echo "install NERDTree begin"
 
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 # 3. install ctags
 
@@ -28,6 +28,6 @@ cvim=${path}/c.vim
 vimrc=${path}/.vimrc
 zzvim=${path}/zz.vim
 
-\cp ${zzvim} ${dst_zz}
-\cp ${cvim} ${dst_cvim}
+sudo \cp ${zzvim} ${dst_zz}
+sudo \cp ${cvim} ${dst_cvim}
 \cp ${vimrc} ~/.vimrc
