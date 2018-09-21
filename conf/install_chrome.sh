@@ -1,3 +1,3 @@
-/etc/yum.repos.d/
+cp google.repo /etc/yum.repos.d/
 
-yum install google-chrome-stable --nogpg
+yum install google-chrome-stable --nogpg -y
